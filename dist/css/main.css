@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0; }
+
+#mainLowPart {
+  z-index: 5;
+  height: 70px;
+  background-color: #e9e9ec;
+  opacity: 0.95;
+  border-top: 1px solid #10100e;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+  #mainLowPart .input-group {
+    width: 70%;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 17.5px; }
+    #mainLowPart .input-group span {
+      border-color: #03798a;
+      background-color: #03798a;
+      color: white; }
+  #mainLowPart .form-group .form-control {
+    width: 85%;
+    margin: 0 2%;
+    float: left;
+    height: 35px;
+    margin-top: 17.5px; }
+  #mainLowPart .btn-default {
+    float: right;
+    height: 35px;
+    margin-top: 17.5px;
+    margin-right: 10px;
+    background-color: #9eadb5;
+    font-weight: bold;
+    transition: 0.4s; }
+  #mainLowPart #loginButton {
+    width: 20%; }
+  #mainLowPart #sendButton {
+    width: 10%; }
+  #mainLowPart .btn-default:hover {
+    background-color: #03798a; }
+
+.mainPane {
+  width: 100vw;
+  height: 100vh; }
+  .mainPane img {
+    filter: opacity(90%);
+    margin-top: -70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; }
+
